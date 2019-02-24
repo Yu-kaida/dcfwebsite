@@ -1,0 +1,28 @@
+.top1 {
+    background-color: beige;
+}
+
+ul.header {
+    display: table;
+    table-layout: fixed;
+    width: 1000;
+    padding-bottom: 40px;
+}
+
+ul.header ol {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: lightsalmon;
+    border-left: 1px solid white;
+}
+
+ul.header ol:first-child {
+    height: 50px;
+}
+
+ul.header ol a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
